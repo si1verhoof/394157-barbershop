@@ -58,24 +58,24 @@
 					<h2>
 						Производители:
 					</h2>
-					<section class="producer">
-					<input type="checkbox" name="producer-name-1" id="producer-1" checked>
-					<label for="producer-1">Baxter of California</label>
-					<input type="checkbox" name="producer-name-2" id="producer-2">
-					<label for="producer-2">Mr Natty</label>
-					<input type="checkbox" name="producer-name-3" id="producer-3" checked>
-					<label for="producer-3">Suavecito</label>
-					<input type="checkbox" name="producer-name-4" id="producer-4">
-					<label for="producer-4">Malin-Goetz</label>
-					<input type="checkbox" name="producer-name-5" id="producer-5">
-					<label for="producer-5">Murray's</label>
-					<input type="checkbox" name="producer-name-6" id="producer-6" checked>
-					<label for="producer-6">American crew</label>
+					<section class="form-group">
+            <input type="checkbox" name="producer-name-1" id="producer-1" checked>
+            <label for="producer-1">Baxter of California</label>
+            <input type="checkbox" name="producer-name-2" id="producer-2">
+            <label for="producer-2">Mr Natty</label>
+            <input type="checkbox" name="producer-name-3" id="producer-3" checked>
+            <label for="producer-3">Suavecito</label>
+            <input type="checkbox" name="producer-name-4" id="producer-4">
+            <label for="producer-4">Malin-Goetz</label>
+            <input type="checkbox" name="producer-name-5" id="producer-5">
+            <label for="producer-5">Murray's</label>
+            <input type="checkbox" name="producer-name-6" id="producer-6" checked>
+            <label for="producer-6">American crew</label>
 					</section>
 					<h2>
 						Группы товаров
 					</h2>
-					<section class="producer">
+					<section class="form-group">
 						<input type="radio" name="production-group" id="group-1" value="group-1">
 						<label for="group-1">Бритвенные принадлежности<label>
 						<input type="radio" name="production-group" id="group-2" value="group-2" checked>
@@ -83,7 +83,7 @@
 						<input type="radio" name="production-group" id="group-3" value="group-3">
 						<label for="group-3">Аксессуары<label>
 					</section>
-					<input type="submit" value="ПОКАЗАТЬ">
+					<input type="submit" value="Показать">
 				</div>
 			</form>
 			<section class="table-of-goods">
@@ -97,11 +97,9 @@
 					<div class="cost">
 						2 900 руб.
 					</div>
-					<form action="#">
-						<button class="buy">
-							Купить
-						</button>
-					</form>
+					<a href="#">
+						Купить
+					</a>
 				</div>
 				<div class="goods">
 					<a href="#">
@@ -113,7 +111,9 @@
 					<div class="cost">
 						750 руб.
 					</div>
-					<a href="#">Купить</a>
+					 <a href="#">
+            Купить
+					</a>
 				</div>
 				<div class="goods">
 					<a href="#">
@@ -125,7 +125,9 @@
 					<div class="cost">
 						290 руб.
 					</div>
-					<a href="#">Купить</a>
+					<a href="#">
+            Купить
+          </a>
 				</div>
 				<div class="goods">
 					<a href="#">
@@ -137,7 +139,9 @@
 					<div class="cost">
 						500 руб.
 					</div>
-					<a href="#">Купить</a>
+					<a href="#">
+            Купить
+          </a>
 				</div>
 				<div class="goods">
 					<a href="#">
@@ -149,7 +153,9 @@
 					<div class="cost">
 						300 руб.
 					</div>
-					<a href="#">Купить</a>
+					<a href="#">
+            Купить
+          </a>
 				</div>
 				<div class="goods">
 					<a href="#">
@@ -161,22 +167,24 @@
 					<div class="cost">
 						3 900 руб.
 					</div>
-					<a href="#">Купить</a>
+					<a href="#">
+            Купить
+          </a>
 				</div>
 				</section>
 				<div class="shop-buttons">
-					<div class="goods-page">
-					<a href="#">1</a>
-				</div>
-				<div class="goods-page checked">
-					<a href="#">2</a>
-				</div>
-				<div class="goods-page">
-					<a href="#">3</a>
-				</div>
-				<div class="goods-page">
-					<a href="#">4</a>
-				</div>
+					<a href="#" class="goods-page">
+            1
+          </a>
+					<a class="goods-page checked">
+            2
+          </a>
+					<a href="#" class="goods-page">
+            3
+          </a>
+					<a href="#" class="goods-page">
+            4
+          </a>
 			</div>
 		</main>
 		<footer class="page-footer">
@@ -187,27 +195,27 @@
 				Телефон: +7 (495) 666-02-66
 			</div>
 			<div class="social">
-				<span>Давайте дружить!</span>
-				<div class="social-network vk">
-					<a href="#">
-					<img src="#" width="40" height="40" alt="vk">
+				<span class="social-text">Давайте дружить!</span>
+				<div class="social-network">
+        <!--Переделал под форматирование через иконки и псеводэлементы-->
+					<a href="#" class="social-network vk">
+            vk
 					</a>
-				</div>
-				<div class="social-network fb">
-					<a href="#">
-					<img src="#" width="40" height="40" alt="facebook">
+					<a href="#" class="social-network fb">
+            facebook
 					</a>
-				</div>
-				<div class="social-network ig">
-					<a href="#">
-					<img src="#" width="40" height="40" alt="instagram">
+					<a href="#" class="social-network ig">
+            instagram
 					</a>
 				</div>
 			</div>
 			<span>Разработано:</span>
-			<div class="developer">
-				<a href="#">htmlacademy.ru</a>
-			</div>	
+			<span class="developer">
+         Разработано:
+       </span>
+			<a href="#" class="developer-link">
+        htmlacademy.ru
+      </a>
 		</footer>
   </body>
 </html>
