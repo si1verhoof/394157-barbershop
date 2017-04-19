@@ -1,0 +1,20 @@
+/*стили текста: */
+
+body {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "PT Sans Narrow, Verdana, sans-serif"
+}
+
+.page-head {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.page-subhead {
+  font-size: 24px;
+  line-height: 30px;
+}
