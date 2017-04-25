@@ -6,7 +6,7 @@ body {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "PT Sans Narrow, Verdana, sans-serif"
+  font-family: "PT Sans Narrow", "Verdana", "sans-serif";
 }
 
 .page-head {
@@ -17,4 +17,202 @@ body {
 .page-subhead {
   font-size: 24px;
   line-height: 30px;
+}
+
+/* Сетка */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-shop {
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 72px;
+  padding: 0 150px;
+  box-sizing: border-box;
+  
+  background-color: lightblue;
+}
+
+.logo {
+  float: left;
+  margin: 23px 0 25px 0;
+  
+  background-color: teal;
+}
+
+.main-nav {
+  float: left;
+  margin: 28px 40px;
+  
+  background-color: teal;
+}
+
+.user-block {
+  float: right;
+  margin: 28px 0;
+  
+  background-color: teal;
+}
+
+.background-site {
+  width: 1200px;
+  min-height: 912px;
+  margin: 0 auto;
+  padding: 0 130px;
+  box-sizing: border-box;
+  
+  background-color: lightgreen;
+}
+
+.page-title {
+  margin-top: 55px;
+  background-color: green;
+  box-sizing: border-box;
+}
+
+.production-property {
+  float: left;
+  width: 200px;
+  min-height: 597px;
+  box-sizing: border-box;
+  
+  background-color: green;
+}
+
+.table-of-goods {
+  width: 700px;
+  min-height: 590px;
+  font-size: 0px;
+  float: left;
+  margin-left: 40px;
+  box-sizing: border-box;
+  
+  background-color: yellow;
+}
+
+/* сломанная сетка  */
+
+.goods {
+  display: inline-block;
+  font-size: 14px;
+  width: 220px;
+  min-height: 286px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  
+  background-color: lightyellow;
+}
+
+.goods:nth-child(3) {
+  margin-right: 0px; 
+} 
+
+
+.page-footer {
+  width: 1200px;
+  margin: 65px auto 0;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  
+  background-color: yellow;
+}
+
+.contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.developer {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
+.shop-buttons {
+  margin-top: 45px;
+  margin-bottom: 50px;
+  margin-left: 240px;
+  float: left;
+}
+
+.page-head {
+  margin-top: 57px;
+  margin-bottom: 22px;
+}
+
+.breadcrumbs {
+  margin-bottom: 57px;
+}
+
+.photo-additional {
+  margin-top: 21px;
+}
+
+.photo-additional a {
+  float: left;
+  margin-right: 20px;
+}
+
+.photo-additional a:last-child {
+  margin-right: 0px;
+}
+
+.photo-of-goods {
+  float: left;
+  margin-bottom: 50px;
+}
+
+.item-option {
+  margin-left: 90px;
+  width: 390px;
+  min-height: 645px;
+  float: right;
+}
+
+.status-bar {
+  margin: 24px 0 38px;
+}
+
+.exist {
+  float: left;
+}
+
+.vendor-code {
+  float: right;
+}
+
+.item-desc{
+  display: block;
+  min-height: 135px;
+  margin-bottom: 40px;
+}
+
+.purchase-bar{
+  margin-bottom: 65px;
+}
+
+.cost {
+  float: left;
+}
+
+.purchase-btn {
+  float: left;
 }
