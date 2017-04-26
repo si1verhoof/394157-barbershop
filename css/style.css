@@ -67,7 +67,7 @@ body {
   width: 1200px;
   min-height: 912px;
   margin: 0 auto;
-  padding: 0 130px;
+  padding: 57px 130px 0;
   box-sizing: border-box;
   
   background-color: lightgreen;
@@ -123,7 +123,7 @@ body {
 
 .page-footer {
   width: 1200px;
-  margin: 65px auto 0;
+  margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 40px;
   box-sizing: border-box;
@@ -158,7 +158,6 @@ body {
 }
 
 .page-head {
-  margin-top: 57px;
   margin-bottom: 22px;
 }
 
@@ -219,4 +218,8 @@ body {
 
 .purchase-btn {
   float: left;
+}
+
+body {
+  background-color: teal;
 }
