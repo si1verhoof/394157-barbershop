@@ -12,6 +12,8 @@ body {
 .page-head {
   font-size: 30px;
   line-height: 42px;
+  
+  background-color: green;
 }
 
 .page-subhead {
@@ -38,8 +40,6 @@ body {
   min-height: 72px;
   box-sizing: border-box;
   padding: 0 20px;
-  
-  background-color: lightblue;
 }
 
 .logo {
@@ -69,14 +69,13 @@ body {
   margin: 0 auto;
   padding-top: 57px;
   box-sizing: border-box;
-  
-  background-color: lightgreen;
 }
 
 .page-title {
   margin-top: 55px;
-  background-color: green;
   box-sizing: border-box;
+  
+  background-color: green;
 }
 
 .production-property {
@@ -126,8 +125,6 @@ body {
   padding-top: 60px;
   padding-bottom: 40px;
   box-sizing: border-box;
-  
-  background-color: yellow;
 }
 
 .contacts {
@@ -154,6 +151,9 @@ body {
   margin-bottom: 50px;
   margin-left: 40px;
   float: left;
+  
+  
+  background-color: yellow;
 }
 
 .page-head {
@@ -162,6 +162,8 @@ body {
 
 .breadcrumbs {
   margin-bottom: 57px;
+  
+  background-color: green;
 }
 
 .photo-additional {
@@ -180,6 +182,8 @@ body {
 .photo-of-goods {
   float: left;
   margin-bottom: 50px;
+  
+  background-color: green;
 }
 
 .item-option {
@@ -187,10 +191,14 @@ body {
   min-height: 645px;
   float: right;
   margin-right: 5px;
+  
+  background-color: green;
 }
 
 .status-bar {
   margin: 24px 5px 38px 0;
+  
+  background-color: yellow;
 }
 
 .exist {
@@ -205,10 +213,14 @@ body {
   display: block;
   min-height: 135px;
   margin-bottom: 40px;
+    
+  background-color: yellow;
 }
 
 .purchase-bar{
   margin-bottom: 65px;
+  
+  background-color: yellow;
 }
 
 .cost {
@@ -221,4 +233,20 @@ body {
 
 body {
   background-color: teal;
+}
+
+.main-header {
+  background-color: lightblue;
+}
+
+.general-background {
+  background-color: lightgreen;
+}
+
+.main-footer {
+  background-color: yellow;
+}
+
+.set-value {
+  background-color: yellow;
 }
