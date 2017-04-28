@@ -33,11 +33,11 @@ body {
 }
 
 .header-shop {
-  width: 1200px;
+  width: 900px;
   margin: 0 auto;
   min-height: 72px;
-  padding: 0 150px;
   box-sizing: border-box;
+  padding: 0 20px;
   
   background-color: lightblue;
 }
@@ -64,10 +64,10 @@ body {
 }
 
 .background-site {
-  width: 1200px;
+  width: 900px;
   min-height: 912px;
   margin: 0 auto;
-  padding: 57px 130px 0;
+  padding-top: 57px;
   box-sizing: border-box;
   
   background-color: lightgreen;
@@ -93,7 +93,6 @@ body {
   min-height: 590px;
   font-size: 0px;
   float: left;
-  margin-left: 40px;
   box-sizing: border-box;
   
   background-color: yellow;
@@ -122,7 +121,7 @@ body {
 
 
 .page-footer {
-  width: 1200px;
+  width: 900px;
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -184,14 +183,14 @@ body {
 }
 
 .item-option {
-  margin-left: 90px;
   width: 390px;
   min-height: 645px;
   float: right;
+  margin-right: 5px;
 }
 
 .status-bar {
-  margin: 24px 0 38px;
+  margin: 24px 5px 38px 0;
 }
 
 .exist {
