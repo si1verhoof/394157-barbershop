@@ -245,7 +245,7 @@ body {
   background-color: yellow;
 }
 
-.center {
+.container {
   width: 900px;
   margin: 0 auto;
   box-sizing: border-box;
